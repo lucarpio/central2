@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+
+<html xmlns:th="https://www.thymeleaf.org" 
+    th:replace="~{fragments/layout :: layout (~{::body},'home')}">
+
+    <body>
+
+        <h1>Hola mundo</h1>
+    
+        <div class="album py-3 bg-light">
+            <div class="container">
+    
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                    <div class="col">
+                        <div class="card shadow-sm">
+    
+                            <div class="card-body">
+                                <h3 class="card-text">Razer teclado Ornata v2</h3>
+                                <img th:src="@{/img/teclaro001.png}" width="400px" height="400px" class="img-thumbnail">
+                                <div class="d-flex justify-content-between align-items-center pt-2 pb-2">
+                                    <div class="btn-group"> 
+                                        <a th:href="@{/teclado}" class="btn btn-sm btn-success">Mostrar más</a>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <div class="card-body">
+                                <h3 class="card-text">Mouse Microsoft</h3>
+                                <img th:src="@{/img/mouse001.png}" width="400px" height="400px" class="img-thumbnail">
+                                <div class="d-flex justify-content-between align-items-center pt-2 pb-2">
+                                    <div class="btn-group"> 
+                                        <a th:href="@{/mouse001}" class="btn btn-sm btn-success">Mostrar más</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <div class="card-body">
+                                <h3 class="card-text">Asus Laptop Vivobook</h3>
+                                <img th:src="@{/img/laptop002.jpeg}"  width="400px" height="400px" class="img-thumbnail">
+                                <div class="d-flex justify-content-between align-items-center pt-2 pb-2">
+                                    <div class="btn-group">
+                                        <div class="btn-group"> 
+                                            <a th:href="@{/laptop002}" class="btn btn-sm btn-success">Mostrar más</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="album py-3 bg-light">
+            <div class="container">
+    
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                    <div class="col">
+                        <div class="card shadow-sm">
+    
+                            <div class="card-body">
+                                <h3 class="card-text">Quiksilver Polo</h3>
+                                <img th:src="@{/img/poloQuick001.png}"  width="400px" height="400px" class="img-thumbnail">
+                                <div class="d-flex justify-content-between align-items-center pt-2 pb-2">
+                                    <div class="btn-group"> 
+                                        <a th:href="@{/poloQuick001}" class="btn btn-sm btn-success">Mostrar más</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <div class="card-body">
+                                <h3 class="card-text">Fox Polo</h3>
+                                <img th:src="@{/img/poloFox001.png}"  width="400px" height="400px" class="img-thumbnail">
+                                <div class="d-flex justify-content-between align-items-center pt-2 pb-2">
+                                    <div class="btn-group"> 
+                                        <a th:href="@{/poloFox001}" class="btn btn-sm btn-success">Mostrar más</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <div class="card-body">
+                                <h3 class="card-text">Dunkelvolk Polo</h3>
+                                <img th:src="@{/img/poloDunkelvolk001.png}" width="400px" height="400px" class="img-thumbnail">
+                                <div class="d-flex justify-content-between align-items-center pt-2 pb-2">
+                                    <div class="btn-group"> 
+                                        <a th:href="@{/poloDunkelvok001}" class="btn btn-sm btn-success">Mostrar más</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <footer>
+            <div class="footer pt-3 pb-3">
+                <p>Copyright &copy; 2021 - Todos los derechos reservados Central.com</p>
+            </div>
+        </footer>
+    
+        <script src="/docs/5.0/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8"
+            crossorigin="anonymous"></script>
+    </body>
+
+</html> 
