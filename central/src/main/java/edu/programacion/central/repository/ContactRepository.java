@@ -5,8 +5,7 @@ import org.springframework.stereotype.Repository;
 
 import edu.programacion.central.domain.Contact;
 
-
 @Repository
-public interface ContactRepository extends JpaRepository<Contact, Integer>{
+public interface ContactRepository extends JpaRepository<Contact, Integer> {
 
 }
